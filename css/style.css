@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 /* Reset */
 * {
 	margin: 0;
@@ -53,7 +53,6 @@ a {
 .container {
 	margin: auto;
 	max-width: 1300px;
-	overflow: auto;
 	padding: 0 20px;
 }
 
@@ -191,6 +190,7 @@ img {
 
 .about-row-experience,
 .about-row-me {
+	text-align: center;
 	width: 50%;
 	padding-left: 50px;
 }
@@ -252,11 +252,25 @@ a.icon-block i, a.icon-block {
 
 /* bounce */
 
+
+
 .container {
     border-bottom: 2px solid #000000;
     height: 200px;
     width: 100%;
+	padding-bottom: 25%;
 }
+
+.container-top{
+	border-bottom: 2px solid #000000;
+    height: 200px;
+    width: 100%;
+	margin: auto;
+	max-width: 1300px;
+	padding: 0 20px;
+}
+
+
 .child {
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -271,3 +285,12 @@ a.icon-block i, a.icon-block {
   50%  { transform: translateY(-50px); }
   100% { transform: translateY(0); }
 }
+
+
+/* Image Resize */
+
+.resize{
+	width: 80%;
+}
+
+/* Hamburguer Menu */
